@@ -666,6 +666,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Puzzle: {fileID: 2462661352461639826}
+  _puzzlePlayable_T1: {fileID: 2234748909207400427}
+  _puzzlePlayable_T2: {fileID: 3930623911336051552}
+  _puzzlePlayable_T3: {fileID: 8741856316286871862}
 --- !u!1 &6236170843061057379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,8 +1049,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: A1_P1_ShootingRange
       objectReference: {fileID: 0}
+    - target: {fileID: 1793749547241698132, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
+      propertyPath: m_SceneBindings.Array.data[58].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
     - target: {fileID: 3561116266438844383, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
+    - target: {fileID: 3561116266438844383, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
+      propertyPath: m_SceneBindings.Array.data[37].value
       value: 
       objectReference: {fileID: 6236170842928501146}
     - target: {fileID: 4808418306336073629, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
@@ -1070,16 +1081,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6285226460353714434, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
+      propertyPath: m_SceneBindings.Array.data[4].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
+--- !u!320 &2234748909207400427 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 3561116266438844383, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
+  m_PrefabInstance: {fileID: 3344147206760067124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2462661352461639826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 884373869765546150, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
   m_PrefabInstance: {fileID: 3344147206760067124}
   m_PrefabAsset: {fileID: 0}
+--- !u!320 &3930623911336051552 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 1793749547241698132, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
+  m_PrefabInstance: {fileID: 3344147206760067124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7667543383334225452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4900015624161654296, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
+  m_PrefabInstance: {fileID: 3344147206760067124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!320 &8741856316286871862 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 6285226460353714434, guid: acb5d1d5e5a714733b6d56a2eaec80c8, type: 3}
   m_PrefabInstance: {fileID: 3344147206760067124}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6236170842358608508
@@ -1311,6 +1341,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108453799659117390, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
       propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311183227759916882, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+      propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []

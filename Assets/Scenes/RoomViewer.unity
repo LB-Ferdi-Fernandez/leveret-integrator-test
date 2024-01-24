@@ -954,7 +954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2234748909207400427, guid: d4629fe80684541289f5251ea9990873, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 21
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 2234748909207400427, guid: d4629fe80684541289f5251ea9990873, type: 3}
       propertyPath: m_SceneBindings.Array.data[18].key
