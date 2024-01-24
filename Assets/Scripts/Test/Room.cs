@@ -11,12 +11,25 @@ namespace Test
         private GameObject Puzzle;
 
         private PlayableDirector _puzzlePlayable;
+        private PlayableDirector _puzzlePlayableFail;
 
         private void Start()
         {
             if (Puzzle != null)
             {
-                _puzzlePlayable = Puzzle.GetComponentInChildren<PlayableDirector>();
+                var playables = Puzzle.GetComponentsInChildren<PlayableDirector>();
+                foreach (var t in playables)
+                {
+                    switch (t.transform.name)
+                    {
+                        case "A1_P1_ShootingRange_T1":
+                            _puzzlePlayable = t;
+                            break;
+                        case "A1_P1_ShootingRange_Fail":
+                            _puzzlePlayableFail = t;
+                            break;
+                    }
+                }
 
                 var vCam = Puzzle.GetComponentInChildren<VirtualCameraDummy>();
                 if (vCam != null)
@@ -40,12 +53,18 @@ namespace Test
                 return;
             }
 
-            bool canPlay = _puzzlePlayable.state != PlayState.Playing;
-            string buttonLabel = canPlay ? "Start MPA" : "MPA Playing...";
-            if (GUI.Button(new Rect(10, 10, 200, 50), buttonLabel) && canPlay)
+            var canPlay = _puzzlePlayable.state != PlayState.Playing && _puzzlePlayableFail.state != PlayState.Playing;
+            
+            if (GUI.Button(new Rect(10, 10, 200, 50), canPlay ? "Start MPA" : "MPA Playing...") && canPlay)
             {
                 _puzzlePlayable.time = 0;
                 _puzzlePlayable.Play();
+            }
+            
+            if (GUI.Button(new Rect(10, 70, 200, 50), canPlay ? "Start MPA Fail" : "MPA Playing...") && canPlay)
+            {
+                _puzzlePlayableFail.time = 0;
+                _puzzlePlayableFail.Play();
             }
         }
     }
