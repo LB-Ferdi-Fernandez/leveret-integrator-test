@@ -1644,6 +1644,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6236170843039928956}
     m_Modifications:
+    - target: {fileID: 246640077330628528, guid: ca382352473d341f5961d6b47d408e81, type: 3}
+      propertyPath: m_SceneBindings.Array.data[32].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
+    - target: {fileID: 2946493442346909890, guid: ca382352473d341f5961d6b47d408e81, type: 3}
+      propertyPath: m_SceneBindings.Array.data[32].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
     - target: {fileID: 3368498907588749422, guid: ca382352473d341f5961d6b47d408e81, type: 3}
       propertyPath: m_Name
       value: A1_P1_ShootingRange
