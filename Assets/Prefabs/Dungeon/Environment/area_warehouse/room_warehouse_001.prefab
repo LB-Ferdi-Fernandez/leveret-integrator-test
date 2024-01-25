@@ -1337,10 +1337,6 @@ PrefabInstance:
       propertyPath: m_Lightmapping
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 7311183227759916882, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
 --- !u!4 &6234156206687484468 stripped
@@ -1380,10 +1376,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6234156206687484468}
     m_Modifications:
-    - target: {fileID: 4373048193643737941, guid: bf0a225a9ff184f2789f3036faaa9150, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4410402899750998667, guid: bf0a225a9ff184f2789f3036faaa9150, type: 3}
       propertyPath: m_Name
       value: ConstructionLightLow (1)
