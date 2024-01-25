@@ -1696,6 +1696,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
       objectReference: {fileID: 6236170842928501146}
+    - target: {fileID: 3590503139541773031, guid: 386259b327a2404499066e2ee64a7609, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     - target: {fileID: 4962644696295472885, guid: 386259b327a2404499066e2ee64a7609, type: 3}
       propertyPath: m_Name
       value: A1_P1_ShootingRange
