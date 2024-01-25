@@ -70,6 +70,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5018584453838820624}
     m_Modifications:
+    - target: {fileID: 2301523307771588335, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c0305b496d29f42439da646d377a3f72, type: 2}
     - target: {fileID: 5125656406992859526, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
       propertyPath: m_Name
       value: FpsArm2
@@ -92,19 +96,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8177028945457529749, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8177028945457529749, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177028945457529749, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177028945457529749, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177028945457529749, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
