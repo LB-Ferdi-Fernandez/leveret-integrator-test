@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.9166666666666665
+    m_Start: 3.7666666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -2652519019755297616}
     m_Duration: 4.566666666666668
@@ -757,7 +757,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 4.183333333333334
+    m_Start: 4.033333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 6222003160113507459}
     m_Duration: 4.300000000000001
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.483333333333334
+    m_Start: 3.3000000000000003
     m_ClipIn: 0
     m_Asset: {fileID: -1543768973901899162}
     m_Duration: 5
@@ -1712,25 +1712,7 @@ MonoBehaviour:
     m_BlendOutDuration: 0.3999999999999999
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2139,7 +2121,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 4.183333333333334
+    m_Start: 3.7666666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -5314931031277396601}
     m_Duration: 2.5
@@ -2667,7 +2649,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.433333333333333
+    m_Start: 3.3000000000000003
     m_ClipIn: 0
     m_Asset: {fileID: -722586199901612989}
     m_Duration: 0.16666666666666607
@@ -2736,7 +2718,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: WFX_MF FPS RIFLE1
   - m_Version: 1
-    m_Start: 3.7
+    m_Start: 3.533333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -976578904549251344}
     m_Duration: 0.1636122495071799
@@ -2805,7 +2787,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: WFX_MF FPS RIFLE1
   - m_Version: 1
-    m_Start: 3.86361224950718
+    m_Start: 3.7666666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -4805231215377550499}
     m_Duration: 0.16666666666666652
@@ -2874,7 +2856,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: WFX_MF FPS RIFLE1
   - m_Version: 1
-    m_Start: 4.133333333333334
+    m_Start: 4.030278916173848
     m_ClipIn: 0
     m_Asset: {fileID: -1855325648036766757}
     m_Duration: 0.2697210838261528
@@ -3258,7 +3240,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.9166666666666665
+    m_Start: 3.533333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -3021952778695839533}
     m_Duration: 2.5
@@ -3394,7 +3376,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.483333333333334
+    m_Start: 4.030278916173848
     m_ClipIn: 0
     m_Asset: {fileID: 1578986166496864669}
     m_Duration: 2.5
@@ -3526,7 +3508,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.7530544171594866
+    m_Start: 3.5363877504928194
     m_ClipIn: 0
     m_Asset: {fileID: 1782459652899206090}
     m_Duration: 4.730278916173848
@@ -3820,7 +3802,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.7530544171594866
+    m_Start: 3.3000000000000003
     m_ClipIn: 0
     m_Asset: {fileID: 5633996382039117507}
     m_Duration: 2.5
