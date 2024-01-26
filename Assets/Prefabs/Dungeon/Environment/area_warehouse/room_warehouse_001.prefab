@@ -1520,6 +1520,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
   m_PrefabInstance: {fileID: 6236170842928535358}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6236170842928501146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
+  m_PrefabInstance: {fileID: 6236170842928535358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6236170842996818755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1639,6 +1644,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6236170843039928956}
     m_Modifications:
+    - target: {fileID: 2491613165501660026, guid: 8bcfe36d889cdac40abcfd3d976ba152, type: 3}
+      propertyPath: m_SceneBindings.Array.data[4].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
+    - target: {fileID: 7147817686355114498, guid: 8bcfe36d889cdac40abcfd3d976ba152, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     - target: {fileID: 8518234834213732588, guid: 8bcfe36d889cdac40abcfd3d976ba152, type: 3}
       propertyPath: m_RootOrder
       value: 11
