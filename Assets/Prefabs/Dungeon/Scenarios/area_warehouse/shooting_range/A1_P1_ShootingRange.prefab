@@ -49,6 +49,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -1666940851306077525, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
     value: {fileID: 8188067217227747729}
+  - key: {fileID: -7811164240654111347, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 7828871407341529370}
+  - key: {fileID: -3868084142497614883, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 7251848502742412990}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &9112234301311240368
@@ -285,6 +289,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4666957565367938556, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
   m_PrefabInstance: {fileID: 3198083763028598881}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &7828871407341529370 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4666957565401123195, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
+  m_PrefabInstance: {fileID: 3198083763028598881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7494945993291097783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -349,5 +358,10 @@ PrefabInstance:
 --- !u!4 &2162371715467631622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8503126180014504625, guid: db9dfcd7e1f1846ec96fb0a4d89be4aa, type: 3}
+  m_PrefabInstance: {fileID: 7494945993291097783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7251848502742412990 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 909965037298419721, guid: db9dfcd7e1f1846ec96fb0a4d89be4aa, type: 3}
   m_PrefabInstance: {fileID: 7494945993291097783}
   m_PrefabAsset: {fileID: 0}
