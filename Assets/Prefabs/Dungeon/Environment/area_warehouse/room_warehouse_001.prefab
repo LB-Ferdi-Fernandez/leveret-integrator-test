@@ -1652,10 +1652,6 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
       objectReference: {fileID: 6236170842928501146}
-    - target: {fileID: 6684405069073414142, guid: 8bcfe36d889cdac40abcfd3d976ba152, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7147817686355114498, guid: 8bcfe36d889cdac40abcfd3d976ba152, type: 3}
       propertyPath: m_Camera
       value: 
