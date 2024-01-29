@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd3c33ea333f74795805c6a1e064c6db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puzzle: {fileID: 0}
+  Puzzle: {fileID: 276575778286108537}
 --- !u!1 &6236170843061057379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,6 +1266,10 @@ PrefabInstance:
       propertyPath: m_Lightmapping
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7311183227759916882, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
 --- !u!4 &6234156206687484468 stripped
@@ -1711,19 +1715,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9112234301311240368, guid: 8bcfe36d889cdac40abcfd3d976ba152, type: 3}
   m_PrefabInstance: {fileID: 9053274173638522825}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &931379423343898113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276575778286108537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd3c33ea333f74795805c6a1e064c6db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Puzzle: {fileID: 276575778286108537}
 --- !u!4 &834689399908874021 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8518234834213732588, guid: 8bcfe36d889cdac40abcfd3d976ba152, type: 3}
