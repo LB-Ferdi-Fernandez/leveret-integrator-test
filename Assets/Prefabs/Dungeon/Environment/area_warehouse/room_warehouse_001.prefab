@@ -1806,6 +1806,10 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 1.02424605e-11
       objectReference: {fileID: 0}
+    - target: {fileID: 4663281962065459478, guid: ac32dbb560fe98a44be7d97531a6c827, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     - target: {fileID: 4711854459578577283, guid: ac32dbb560fe98a44be7d97531a6c827, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4291,6 +4295,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108453799659117390, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
       propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311183227759916882, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+      propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
