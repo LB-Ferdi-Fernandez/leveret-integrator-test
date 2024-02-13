@@ -88,6 +88,10 @@ PlayableDirector:
     value: {fileID: 1572979823239612112}
   - key: {fileID: -8162239605285899880, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
     value: {fileID: 314281422323578247}
+  - key: {fileID: 8275114695283351133, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 6056173520199516001}
+  - key: {fileID: -1297688552078526932, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &647486079123553678
@@ -260,6 +264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tool_assaultRifle
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -306,6 +314,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
+--- !u!1 &6056173520199516001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
+  m_PrefabInstance: {fileID: 6056173520199612869}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6129405678789562283
 PrefabInstance:
   m_ObjectHideFlags: 0
