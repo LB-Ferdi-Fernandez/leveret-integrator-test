@@ -1675,6 +1675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: A1_P1_ShootingRange
       objectReference: {fileID: 0}
+    - target: {fileID: 2793812446403262073, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     - target: {fileID: 5991772965094067627, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -1719,11 +1723,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8605583244452159652, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605583244452159652, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
+      propertyPath: m_SceneBindings.Array.data[9].key
+      value: 
+      objectReference: {fileID: -5722200083646004309, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 8605583244452159652, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
+      propertyPath: m_SceneBindings.Array.data[9].value
+      value: 
+      objectReference: {fileID: 5648151067449895686}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
 --- !u!4 &4287658989218841141 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5991772965094067627, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
+  m_PrefabInstance: {fileID: 7541241181240217502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5648151067449895686 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2793812447130477720, guid: e88c8b37ca7354007b75a1148cd3cb24, type: 3}
   m_PrefabInstance: {fileID: 7541241181240217502}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &9109524240884332450 stripped
