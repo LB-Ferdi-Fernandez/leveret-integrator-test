@@ -666,6 +666,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Puzzle: {fileID: 2321537834144710180}
+  _puzzlePlayable_T1: {fileID: 1675245232546329288}
+  _puzzlePlayable_T2: {fileID: 2474686132842394092}
+  _puzzlePlayable_T3: {fileID: 8496981545935185179}
+  _puzzlePlayable_T4: {fileID: 53718743058351300}
 --- !u!1 &6236170843061057379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1050,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2365882408567739151}
+    - target: {fileID: 3510965614129314886, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+      propertyPath: m_SceneBindings.Array.data[32].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
     - target: {fileID: 4004894098731372655, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
@@ -1094,15 +1102,47 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810322333991645616, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+      propertyPath: m_SceneBindings.Array.data[56].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
+    - target: {fileID: 6143122017834108860, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+      propertyPath: m_SceneBindings.Array.data[32].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
+    - target: {fileID: 6928985567687525528, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+      propertyPath: m_SceneBindings.Array.data[32].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
     - target: {fileID: 7082095237247929168, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
       propertyPath: m_Name
       value: A1_P1_ShootingRange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+--- !u!320 &53718743058351300 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 4810322333991645616, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+  m_PrefabInstance: {fileID: 4791665371813066100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!320 &1675245232546329288 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 6143122017834108860, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+  m_PrefabInstance: {fileID: 4791665371813066100}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2321537834144710180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7082095237247929168, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+  m_PrefabInstance: {fileID: 4791665371813066100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!320 &2474686132842394092 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 6928985567687525528, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
+  m_PrefabInstance: {fileID: 4791665371813066100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!320 &8496981545935185179 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 4004894098731372655, guid: 259687a5eb7e94d1c87c48e078fdec2d, type: 3}
   m_PrefabInstance: {fileID: 4791665371813066100}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &9215772699359522714 stripped
@@ -1339,6 +1379,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108453799659117390, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
       propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311183227759916882, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+      propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
