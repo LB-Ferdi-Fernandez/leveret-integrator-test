@@ -69,6 +69,8 @@ PlayableDirector:
     value: {fileID: 5248253332036191788}
   - key: {fileID: -8583500559650221372, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
     value: {fileID: 1215408738654051529}
+  - key: {fileID: 2914253605873764091, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 3799649149015596518}
   m_ExposedReferences:
     m_References:
     - e3bc7a66be6e74754952fce406899117: {fileID: 4491309779949970063}
@@ -2435,31 +2437,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123193, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0036400557
+      value: 0.15838335
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123193, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09560728
+      value: 0.15399419
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123193, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.09376025
+      value: -0.1060683
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123193, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95637935
+      value: 0.9930398
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123193, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2916402
+      value: 0.09492584
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123193, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.005016666
+      value: 0.055684593
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123193, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.016109575
+      value: -0.041956317
       objectReference: {fileID: 0}
     - target: {fileID: 4666957565401123195, guid: 1446be9a74c3c47c981d40fa7e2614da, type: 3}
       propertyPath: m_Controller
@@ -5307,6 +5309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WFX_MF FPS RIFLE1
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 30b4cc2728d8cec499fad63ba93785a4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 30b4cc2728d8cec499fad63ba93785a4, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5806,6 +5812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5ced3cceb26f4b1eb1f9612bd6b4e46, type: 3}
+--- !u!95 &3799649149015596518 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5987809372981451252, guid: b5ced3cceb26f4b1eb1f9612bd6b4e46, type: 3}
+  m_PrefabInstance: {fileID: 7468067845832754194}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3799649150834315014 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5987809371717421844, guid: b5ced3cceb26f4b1eb1f9612bd6b4e46, type: 3}
