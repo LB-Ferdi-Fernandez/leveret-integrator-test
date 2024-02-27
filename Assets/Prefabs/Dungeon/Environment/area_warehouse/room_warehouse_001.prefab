@@ -1687,10 +1687,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: A1_P1_ShootingRange
       objectReference: {fileID: 0}
-    - target: {fileID: 8003231873291341327, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
 --- !u!1 &3552288244350951350 stripped
