@@ -1649,9 +1649,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 6236170843039928956}
     m_Modifications:
     - target: {fileID: 1826016373429396723, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826016373429396723, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
+      propertyPath: m_SceneBindings.Array.data[9].key
+      value: 
+      objectReference: {fileID: 2914253605873764091, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 1826016373429396723, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
       objectReference: {fileID: 6236170842928501146}
+    - target: {fileID: 1826016373429396723, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
+      propertyPath: m_SceneBindings.Array.data[9].value
+      value: 
+      objectReference: {fileID: 7702953542012128351}
     - target: {fileID: 3201430364882662365, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -1696,6 +1708,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3799649150834315015, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     - target: {fileID: 8003231873291341327, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
       propertyPath: m_Name
       value: A1_P1_ShootingRange
@@ -1705,6 +1721,11 @@ PrefabInstance:
 --- !u!1 &3552288244350951350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8003231873291341327, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
+  m_PrefabInstance: {fileID: 6799718187434299833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7702953542012128351 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3799649149015596518, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
   m_PrefabInstance: {fileID: 6799718187434299833}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &8228270438207332964 stripped
