@@ -1645,10 +1645,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 6236170843039928956}
     m_Modifications:
     - target: {fileID: 1826016373429396723, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
-      propertyPath: m_SceneBindings.Array.data[3].value
-      value: 
-      objectReference: {fileID: 1351434006510728657}
-    - target: {fileID: 1826016373429396723, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
       objectReference: {fileID: 6236170842928501146}
@@ -1702,11 +1698,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
---- !u!1 &1351434006510728657 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5520341925325743208, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
-  m_PrefabInstance: {fileID: 6799718187434299833}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3552288244350951350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8003231873291341327, guid: 7224e8eb2d5c232428fbe2489775d5c3, type: 3}
