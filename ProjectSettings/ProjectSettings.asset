@@ -918,11 +918,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 32b4b7ef-9c8b-43e4-8508-33514736ffea
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: leveret-integrator-test
+  organizationId: yinnyan
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
