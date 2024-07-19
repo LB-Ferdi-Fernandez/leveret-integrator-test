@@ -93,6 +93,8 @@ PlayableDirector:
     value: {fileID: 1030486424273334422}
   - key: {fileID: 1708185347225123216, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
     value: {fileID: 2270893800947414874}
+  - key: {fileID: 1726149329581620345, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 6414226735423073618}
   m_ExposedReferences:
     m_References:
     - 050647e1b5cc3e0439410a8d3797a316: {fileID: 6414226735423073616}
@@ -1091,6 +1093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WFX_MF FPS RIFLE3
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1146,6 +1152,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
       propertyPath: m_Enabled
@@ -1254,6 +1264,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
   m_PrefabInstance: {fileID: 6414226735423106032}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6414226735423073618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
+  m_PrefabInstance: {fileID: 6414226735423106032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6299841810899360167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6414226735423073618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &6748717453592094439
 PrefabInstance:
   m_ObjectHideFlags: 0
