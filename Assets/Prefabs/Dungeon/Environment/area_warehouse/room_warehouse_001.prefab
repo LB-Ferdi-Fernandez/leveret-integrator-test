@@ -1696,6 +1696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: A1_P1_ShootingRange
       objectReference: {fileID: 0}
+    - target: {fileID: 7690117348099702632, guid: e61e5fd907472eb4394440db1440ef4c, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e61e5fd907472eb4394440db1440ef4c, type: 3}
 --- !u!1 &4002771797686352532 stripped
