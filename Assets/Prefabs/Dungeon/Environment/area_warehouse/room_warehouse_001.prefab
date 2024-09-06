@@ -1100,7 +1100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4491815992743214289, guid: f5482b6c6efb83d499db55c0f3e6c950, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4491815992743214289, guid: f5482b6c6efb83d499db55c0f3e6c950, type: 3}
       propertyPath: m_SceneBindings.Array.data[3].key
@@ -1111,6 +1111,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8835820256367562588, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
     - target: {fileID: 4491815992743214289, guid: f5482b6c6efb83d499db55c0f3e6c950, type: 3}
+      propertyPath: m_SceneBindings.Array.data[9].key
+      value: 
+      objectReference: {fileID: -524526968822875850, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 4491815992743214289, guid: f5482b6c6efb83d499db55c0f3e6c950, type: 3}
       propertyPath: m_SceneBindings.Array.data[3].value
       value: 
       objectReference: {fileID: 6236170842928501146}
@@ -1118,6 +1122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: A1_P1_ShootingRange
       objectReference: {fileID: 0}
+    - target: {fileID: 8178904046353505767, guid: f5482b6c6efb83d499db55c0f3e6c950, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5482b6c6efb83d499db55c0f3e6c950, type: 3}
 --- !u!4 &1168101756528068272 stripped
