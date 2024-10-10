@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7371171257035848550}
   m_Layer: 0
-  m_Name: A1_P1_ShootingRange
+  m_Name: A1_P1_ShootingRange - Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
