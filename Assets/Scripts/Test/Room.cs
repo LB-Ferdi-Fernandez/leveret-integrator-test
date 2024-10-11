@@ -12,6 +12,11 @@ namespace Test
 
         private PlayableDirector _puzzlePlayable;
 
+        [SerializeField]
+        private Animator animatorToCancel;
+        private int randomIndex;
+
+
         private void Start()
         {
             if (Puzzle != null)
@@ -48,5 +53,22 @@ namespace Test
                 _puzzlePlayable.Play();
             }
         }
+
+        private void Update()
+        {
+            bool canPlay = _puzzlePlayable.state != PlayState.Playing;
+            if (canPlay)
+                {
+                    int randomIndex = Random.Range(0, 3); // Generates a random number between 0 and 2
+                    animatorToCancel.SetInteger("randomIndex", randomIndex);
+                    animatorToCancel.SetBool("canPlay", true);
+                }
+                else
+                {
+                    animatorToCancel.SetBool("canPlay", false);
+                    animatorToCancel.CrossFade("WAIT00", 0.1f);
+                }
+            }
+        
     }
 }
